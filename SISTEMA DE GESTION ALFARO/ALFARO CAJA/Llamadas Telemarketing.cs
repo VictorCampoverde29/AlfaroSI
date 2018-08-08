@@ -65,7 +65,7 @@ namespace ALFARO_CAJA
 
         private void Llamadas_Telemarketing_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            Close();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
