@@ -29,33 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IMPRESION_REPORTES));
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(833, 446);
-            this.reportViewer1.TabIndex = 0;
             // 
             // IMPRESION_REPORTES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(833, 446);
-            this.Controls.Add(this.reportViewer1);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "IMPRESION_REPORTES";
             this.Text = "IMPRESION_REPORTES";
-            this.Load += new System.EventHandler(this.IMPRESION_REPORTES_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        public Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
     }
 }

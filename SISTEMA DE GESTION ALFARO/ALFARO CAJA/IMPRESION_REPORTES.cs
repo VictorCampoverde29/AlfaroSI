@@ -15,11 +15,5 @@ namespace ALFARO_CAJA
         {
             InitializeComponent();
         }
-
-        private void IMPRESION_REPORTES_Load(object sender, EventArgs e)
-        {
-
-            this.reportViewer1.RefreshReport();
-        }
     }
 }
